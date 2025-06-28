@@ -1,0 +1,21 @@
+{
+  "name": "hyperflux-theme",
+  "displayName": "Hyperflux Theme",
+  "description": "Hyperflux is a dynamic, high-contrast VS Code theme designed for developers who thrive in vibrant, futuristic aesthetics. With its glowing syntax colors, deep background tones, and sleek UI accents, Hyperflux enhances focus and readability—perfect for late-night coding sessions or high-energy workflows. Experience a bold and electrifying interface that brings your code to life.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hyperflux Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hyperflux Theme-color-theme.json"
+      }
+    ]
+  }
+}
